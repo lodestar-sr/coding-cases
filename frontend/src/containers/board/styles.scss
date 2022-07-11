@@ -1,0 +1,46 @@
+.board-container {
+  @apply h-screen flex flex-col;
+}
+
+.logo {
+  @apply w-36 my-auto mr-5;
+}
+
+.main-board {
+  @apply w-screen overflow-auto mt-24 p-6 flex flex-col;
+}
+
+.search-section {
+  @apply flex justify-end
+         bg-transparent;
+
+  .view-option-panel {
+    .checkbox-container {
+      @apply m-0;
+
+      input:checked ~ .checkmark {
+        @apply bg-blue-700 border-blue-700;
+      }
+
+      .checkmark {
+        @apply m-0 rounded;
+
+        &::after {
+          @apply border-white;
+        }
+      }
+    }
+  }
+
+  .search-box {
+    @apply flex;
+
+    .search-button {
+      @apply text-sm rounded-none;
+    }
+  }
+}
+
+.table-section {
+  @apply relative bg-white overflow-auto;
+}

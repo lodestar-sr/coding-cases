@@ -1,0 +1,27 @@
+{
+  "name": "coding-base-be",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/mnrendra/flickr-backend-test/issues"
+  },
+  "homepage": "https://github.com/mnrendra/flickr-backend-test#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "query-string": "^7.1.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
